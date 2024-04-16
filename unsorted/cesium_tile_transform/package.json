@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Hello package",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "cesium": "^1.103.0"
+  },
+  "author": "yyk",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
