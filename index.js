@@ -22,6 +22,7 @@ const server = http.createServer((req, res) => {
     // Lim, Greg. Beginning Node.js, Express & MongoDB Development (p. 13). Kindle Edition. 
 })
 
+console.log("Server started on http://localhost:3000")
 server.listen(3000)
 
 // Lim, Greg. Beginning Node.js, Express & MongoDB Development (p. 11). Kindle Edition. 
