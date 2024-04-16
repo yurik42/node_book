@@ -4,11 +4,14 @@
   "description": "Hello package",
   "main": "helloworld.js",
   "scripts": {
-    "test": "npx ts-node transform.ts"
+    "test": "mocha"
   },
   "dependencies": {
     "cesium": "^1.103.0"
   },
   "author": "yyk",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
 }
