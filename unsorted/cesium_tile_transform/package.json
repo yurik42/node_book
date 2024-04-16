@@ -4,7 +4,7 @@
   "description": "Hello package",
   "main": "helloworld.js",
   "scripts": {
-    "test": "node helloworld.js"
+    "test": "npx ts-node transform.ts"
   },
   "dependencies": {
     "cesium": "^1.103.0"
